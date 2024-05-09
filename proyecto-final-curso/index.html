@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Web site title -->
+    <title>Progressive Leipzig</title>
+    <!-- Import into css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- https://boxicons.com/ -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- https://remixicon.com/ -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    <!-- https://fonts.google.com/ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    
+    
+    <link rel="icon" href="assets/imgs/favicon.png" type="image/x-icon">
+    
+
+    <style>
+        audio {
+          position: fixed;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          background-color: black;
+          color: white;
+        }
+      </style>
+</head>
+<body>
+
+    <!-- This section is the header of the website which will have a logo and navigation bar -->
+    <header>
+        <!-- LOGO -->
+        <!-- PROGRESSIVE LEIPZIG -->
+        <a href="#" class="logo"></a> 
+
+        <!-- Truco para que el boton sea clickeable sin usar JAVASCRIPT -->
+        <input type="checkbox" name="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon-action"> 
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </label>
+
+        <ul class="navlist">
+            <li><a href="">Home</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="https://progressivelpz.taplink.ws">Next events</a></li>
+            <li><a href="https://www.instagram.com/progressive.perth">Progressive Perth</a></li>
+            <li><a href="mailto:progressivelpz@gmail.com">Contact</a></li>
+        </ul>
+    </header>
+
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <div class="hero-text">
+                <h4>Unsere Heimat, Unsere Musik</h4>
+                <h1>HURRY UP, WE'RE DREAMING!</h1>
+                <p>Progressive Leipzig is a multicultural kollektiv founded in 2022 with its main focus on music quality, talking into account sounds including Downtempo, Progressive, Techno & Psytrance. <br>
+                Its artisctic proposal is to take its listerns and dancers into a progressive state of trance, where the Djs are working together as a team to offer a complete and congruent curve along the show. <br></p>
+                <a href="https://soundcloud.com/progressive_lpz?ref=clipboard&p=a&c=0&si=d662009214c244d7bde0a802168b4249&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"><i class="ri-soundcloud-line"></i>Check our Music</a>
+                <a href="https://www.youtube.com/watch?v=sh5lviE7pas&t=263s&ab_channel=Emeveka%28MVK%29" class="videos"><i class="ri-youtube-line"></i>Check our videos</a>
+            </div>
+
+            <div class="hero-img">
+                <img src="assets/imgs/PL1.png" alt="Progressive Leipzig photo">
+            </div>
+        </section>
+        <div class="icons">
+            <a href="https://www.instagram.com/progressivelpz/"><i class="ri-instagram-line"></i></a>
+            <a href=""><i class="ri-facebook-circle-line"></i></i></a>
+            <a href="https://t.me/progressivelpz"><i class="ri-telegram-line"></i></a>
+            <a href=""><i class="ri-spotify-line"></i></a>
+            <a href=""><i class="ri-twitter-line"></i></a>
+
+        </div>
+        <div class="scroll-down">
+            <a href="#"><i class="ri-arrow-down-fill"></i></a>
+
+        </div>
+
+        <div id="audio-player" tabindex="0">
+            <audio autoplay loop>
+              <source src="https://www.youtube.com/watch?v=sh5lviE7pas&t=268s&ab_channel=Emeveka%28MVK%29" type="audio/mpeg">
+              Tu navegador no soporta el elemento de audio.
+            </audio>
+          </div>
+</body>
+</html>
